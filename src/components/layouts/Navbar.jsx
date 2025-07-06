@@ -19,9 +19,9 @@ const Navbar = ({ activeMenu }) => {
         )}
       </button>
 
-      <img src="/src/assets/images/logo.png" alt="MyBudget Logo" className="w-12 h-auto" />
+      <img src="/public/images/logo.png" alt="MyBudget Logo" className="w-12 h-auto" />
 
-      {/* Buat hp responsif */}
+      {/* agar hp responsif */}
       {openSideMenu && (
         <div className="fixed top-[60px] left-0 w-[250px] h-full bg-white border-r border-gray-200 shadow-lg z-40 lg:hidden">
           <SideMenu activeMenu={activeMenu} />

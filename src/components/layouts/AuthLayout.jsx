@@ -2,15 +2,15 @@ import React from 'react';
 
 const AuthLayout = ({ children }) => {
     return (
-        <div className="flex min-h-screen">
+        <div className="flex m  zin-h-screen">
             <div className="w-full md:w-1/2 lg:w-2/5 flex flex-col p-8 md:p-12 bg-base-100">
-                <img src="/src/assets/images/logo.png" alt="MyBudget Logo" className="w-32 mb-8" />
+                <img src="/public/images/logo.png" alt="MyBudget Logo" className="w-32 mb-8" />
                 
                 <div className="flex-grow flex flex-col justify-center">
                     {children}
                 </div>
             </div>
-
+                    
 
             <div className="hidden md:flex w-1/2 lg:w-3/5 h-screen bg-primary/90 p-12 relative items-center justify-center overflow-hidden">
                 <div className="w-64 h-64 rounded-full bg-secondary/50 absolute -top-20 -left-20" />
